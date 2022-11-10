@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta</title>
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./desktop.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="commonIcon">
+                <div class="icon"></div>
+                <div class="icon"></div>
+                <div class="icon"></div>
+                </div>
+                <div class="commonIcon" id="clicked">
+                    <div class="secondIcon"></div>
+                    <div class="secondIcon"></div>
+                    <div class="secondIcon"></div>
+                    </div>
+            <div class="img">
+                <img src="./images/Asset 1@3x 1.svg" alt="">
+            </div>
+            <a href="" class="bank">BANK</a>
+            <a href="" class="business">BIZNES</a>
+            <a href="" class="investition">INVESTISIYA</a>
+            <a href="" class="insurance">SIĞORTA</a>
+            <a href="" class="mobile">MOBİL</a>
+            <a href="" class="trip">SƏFƏRLƏR</a>
+            <a href="" class="entertainment">ƏYLƏNCƏ</a>
+            <span class="signin"><button>Daxil ol</button>
+        </div>
+        <ul class="list">
+            <li>BANK</li>
+            <li>BIZNES</li>
+            <li>INVESTISIYA</li>
+            <li>SIĞORTA</li>
+            <li>MOBİL</li>
+            <li>SƏFƏRLƏR</li>
+            <li>ƏYLƏNCƏ</li>
+            </ul>
+        <div class="main">
+            <div class="top">
+                <h1>ONLİNE VALYUTA KONVERTORU</h1>
+            </div>
+            <div class="inputs">
+            <div class="enter1">
+                <p>Mövcud valyuta</p>
+                <span class="leftBtn button ">
+                    <button class="active">RUB</button>
+                    <button>USD</button>
+                    <button>EUR</button>
+                    <button>GBP</button>
+                </span>
+                <div class="amount">
+                    <label for="">
+                        <input type="text" value="1" name="" id="" class="leftInput" placeholder="value"> 
+                    </label>
+                    <p class="leftValyuta"></p>
+                </div>
+            </div>
+            <div class="enter2">
+                <p>Tələb olunan valyuta</p>
+                <span class="rightBtn button">
+                <button>RUB</button>
+                <button class="active">USD</button>
+                <button>EUR</button>
+                <button>GBP</button>
+            </span>
+                <div class="amount">
+                    <label for="">
+                        <input type="text" name="" id="" class="rightInput" placeholder="value">
+                    </label>
+                    <p class="rightValyuta"></p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="imask.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

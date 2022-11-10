@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+/* DESKTOP */
+@media (min-width: 992px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        /* height: 4.762vw; */
+        background: #F5F5F6;
+    }
+    img{
+        width: 8.47vw;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+    a{
+        margin-bottom: 8px;
+        margin-top: 1.619vw;
+        font-style: normal;
+        color: #959BA4;
+        font-weight: 500;
+        font-size: 1.048vw;
+        line-height: 1.238vw;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        height: 1.81vw;
+        text-decoration: none;
+    }
+    li{
+        display: none;
+    }
+    .bank{
+        margin-left: 6.095vw;
+        width: 4.19vw;
+        color: #000000;
+    }
+    .business{
+        margin-left: 1.238vw;
+        width: 4.762vw;
+    }
+    .investition{
+        margin-left: 2vw;
+        width: 8.952vw;
+    }
+    .insurance{
+        margin-left: 1.048vw;
+        width: 8.952vw;
+        margin-right: -2.381vw;
+    }
+    .mobile{
+        margin-left: 1.524vw;
+        width: 6.476vw;
+    }
+    .trip{
+        margin-left: 0.667vw;
+        width: 9.619vw;
+        margin-right: -2.381vw;
+    }
+    .entertainment{
+        margin-left: 0.952vw;
+        width: 9.619vw;
+        margin-right: -2.381vw;
+    }
+    .signin>button{
+        margin-bottom: 10px;
+        margin-left: 109px;
+        margin-top: 0.857vw;
+        padding-left: 0.81vw;
+        width: 5.524vw;
+        height: 3.143vw;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.048vw;
+        line-height: 1.238vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 0.381vw;
+        border: none;
+    }
+    h1{
+        margin-left: 24.095vw;
+        margin-top: 5.333vw;
+        width: 55.905vw;
+        height: 3.048vw;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.429vw;
+        line-height: 4vw;
+        color: #000000;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: row;
+    }
+    .enter1{
+        margin-top: 3.143vw;
+        margin-left: 24.095vw;
+    }
+    .enter1>p, .enter2>p{
+        color: #959BA4;
+        margin-bottom: 0.476vw;
+        font-size: 1.14vw;
+    }
+    .enter2{
+        margin-left: 11.429vw;
+        margin-top: 3.143vw;
+    }
+    .amount{
+        margin-top: 1.905vw;
+        width: 24.667vw;
+        height: 9.714vw;
+        border: 0.095vw solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 0.286vw;
+    }
+    input{
+        margin-left: 1.333vw;
+        margin-right: 1.333vw;
+        margin-top: 1.048vw;
+        width: 22vw;
+        height: 3.619vw;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.429vw;
+        line-height: 4vw;
+        color: #000000;
+        border: none;
+        outline: none;
+    }
+    button{
+        width: 6.15vw;
+        height: 2.667vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.143vw;
+        line-height: 1.333vw;
+        display: flex;
+        border: 0.095vw solid #C6C6C6;
+        align-items: center;
+        text-align: center;
+        color: #C6C6C6;
+        padding-left: 1.429vw;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+    }
+    .active{
+        background-color: darkviolet;
+        color: #FFFFFF;
+    }
+    .amount> p{
+        margin-top: 20px;
+        margin-left: 16px;
+        width: 12.008vw;
+        height: 2.825vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.211vw;
+        line-height: 1.413vw;
+        display: flex;
+        align-items: center;
+        color: #C6C6C6;
+    }
+    a:hover {
+        cursor: pointer;
+        color: black;
+    }
+}
